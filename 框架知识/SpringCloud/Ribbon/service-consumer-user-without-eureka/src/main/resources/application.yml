@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: serivce-consumer-user-without-eureka
+service-provider-user:
+  ribbon:
+    listOfServers: localhost:8001,localhost:8002
