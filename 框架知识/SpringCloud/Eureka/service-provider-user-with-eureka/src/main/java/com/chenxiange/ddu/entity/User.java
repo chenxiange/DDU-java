@@ -1,4 +1,4 @@
-package com.chenxiange.ddu.serviceprovideruser.entity;
+package com.chenxiange.ddu.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

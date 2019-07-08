@@ -1,4 +1,4 @@
-package com.chenxiange.ddu.serviceconsumeruser;
+package com.chenxiange.ddu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class ServiceConsumerUserApplication {
+public class Application {
 
 	@Bean
 	public RestTemplate restTemplate() {
@@ -14,7 +14,7 @@ public class ServiceConsumerUserApplication {
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceConsumerUserApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

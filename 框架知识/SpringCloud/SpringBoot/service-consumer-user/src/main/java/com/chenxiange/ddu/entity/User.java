@@ -1,4 +1,4 @@
-package com.chenxiange.ddu.serviceconsumeruser.entity;
+package com.chenxiange.ddu.entity;
 
 public class User {
 
